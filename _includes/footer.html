@@ -12,6 +12,7 @@
 	<br>
 	{% endif %}
 	<p>
+		<a href="{{ "/" | prepend: site.baseurl }}">Blog</a><span class="u-separate"></span> 
 		{% if site.twitter %}<a href="{{ site.twitter }}">Twitter</a>{% endif %}<span class="u-separate"></span> 
 		{% if site.github %}<a href="{{ site.github }}">Github</a>{% endif %}<span class="u-separate"></span> 
 		<a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
