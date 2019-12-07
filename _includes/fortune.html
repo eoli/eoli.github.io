@@ -1,0 +1,18 @@
+	{% if page.layout == 'amp' %}
+		<p>どうしてこうなるんだろう…</p>
+	{% else %}
+		<script type='text/javascript'>
+			fortune = [
+			'Pen Pineapple Apple Pen ~'								,
+			'なんでそんなに慣れてんだよっ！'						,
+			'あたしが、先だった……先だったんだ……'					,
+			'+1s +1s +1s +1s +1s +1s'						,
+			'どうしてこうなるんだろう…'								,
+			'你才是法師！你全家都是法師！'
+			];
+			
+			index = Math.floor(Math.random() * fortune.length);
+			document.write(fortune[index]);
+		</script>
+		<noscript>どうしてこうなるんだろう…</noscript>
+	{% endif %}

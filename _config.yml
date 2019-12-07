@@ -1,0 +1,33 @@
+# Site settings
+title       : eoli
+description : "eoli's blog"
+author      : eoli
+email       : ihaveanokiaphone@gmail.com
+baseurl     : "" # the subpath of your site, e.g. /blog
+url         : "https://eoli.github.io" # the base hostname & protocol for your site
+
+# social media
+twitter : "https://twitter.com/eoli1008"
+github  : "https://github.com/eoli"
+
+# comment
+disqus_shortname: eoli
+
+# Build settings
+include: [_pages]
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+sass:
+    style: compressed
+
+plugins:
+  - jemoji
+  - jekyll-sitemap
+# - amp-jekyll # Acceletrated Mobile Pages
+
+# AMP Settings
+# ampdir: amp/
+# enable_amp: true
+
+# Google Analytics
+google_analytics: true

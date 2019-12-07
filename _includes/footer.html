@@ -1,0 +1,18 @@
+<footer class="c-page__footer">
+	<hr>
+	<p>
+	{% include fortune.html %}
+	</p>
+	{% if page.layout != 'amp' %}
+	<br>
+	{% endif %}
+	<!--
+	<p>&copy; {{ site.author }} {{ 'now' | date: '%Y' }} Powered by Jekyll</p> -->
+	{% if page.layout != 'amp' %}
+	<br>
+	{% endif %}
+	<p>
+		{% if site.twitter %}<a href="{{ site.twitter }}">Twitter</a>{% endif %}<span class="u-separate"></span> 
+		{% if site.github %}<a href="{{ site.github }}">Github</a>{% endif %}<span class="u-separate"></span> 
+		<a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
+</footer>
