@@ -13,4 +13,4 @@ then
 	mv ./assets/ ./_posts
 fi
 
-
+mv ./assets/ ./_posts
