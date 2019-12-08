@@ -13,5 +13,5 @@ _site/*
 vendor
 .bundle
 
-# local post
+# local posts
 L-*.md
