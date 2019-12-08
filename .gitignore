@@ -8,4 +8,10 @@ _site/*
 .DS_Store/*
 .jekyll-metadata
 .jekyll-metadata/*
+
+# bundle
+vendor
+.bundle
+
+# local post
 L-*.md

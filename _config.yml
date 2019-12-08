@@ -17,6 +17,7 @@ disqus_shortname: eoli
 include: [_pages]
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
+
 sass:
     style: compressed
 
