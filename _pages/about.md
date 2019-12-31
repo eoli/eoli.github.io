@@ -9,7 +9,7 @@ permalink: /about
 
 
 
-### eoli
+### 关于eoli
 
 　　名字应当是有意义的，所以我打算解释下eoli这个名字。
 
