@@ -7,7 +7,7 @@ baseurl     : "" # the subpath of your site, e.g. /blog
 url         : "https://eoli.github.io" # the base hostname & protocol for your site
 
 # social media
-twitter : "https://twitter.com/eoli1008"
+# twitter : "https://twitter.com/eoli1008"
 github  : "https://github.com/eoli"
 
 # comment
