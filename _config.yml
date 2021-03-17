@@ -30,5 +30,8 @@ plugins:
 # ampdir: amp/
 # enable_amp: true
 
+# Fortune Settings
+enable_fortune: false
+
 # Google Analytics
 google_analytics: true
