@@ -35,3 +35,8 @@ enable_fortune: false
 
 # Google Analytics
 google_analytics: true
+
+# Code snippet
+highlight:
+    enable: true
+    line_number: true
