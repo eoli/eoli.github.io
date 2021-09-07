@@ -24,7 +24,7 @@ layout: post
 
 这里定义了DLLIMPORT，以及导出函数原型。其实可以不用定义导出函数原型，只是以后没人知道怎么使用这些函数。
 
-{%code%}
+``` c
 c
 #ifndef _DLL_H_
 #define _DLL_H_
@@ -39,7 +39,7 @@ DLLIMPORT void HelloWorld();
 DLLIMPORT int add(int, int);
 
 #endif
-{%endcode%}
+```
 
 
 
@@ -47,7 +47,7 @@ DLLIMPORT int add(int, int);
 
 这份源码有三个部分，**HelloWorld**和**add**是我们导出的函数，供用户使用，**DllMain**由系统自动调用。注意，add是我自己添加的。
 
-```c
+``` c
 /* Replace "dll.h" with the name of your header */
 #include "dll.h"
 #include <windows.h>
@@ -113,7 +113,7 @@ BOOL WINAPI DllMain(HINSTANCE hinstDLL,DWORD fdwReason,LPVOID lpvReserved)
 
 ### 导入DLL
 
-```
+``` python
 > from ctypes import *
 > c = CDLL("mydll.dll")
 ```
@@ -126,7 +126,7 @@ BOOL WINAPI DllMain(HINSTANCE hinstDLL,DWORD fdwReason,LPVOID lpvReserved)
 
 - **使用HelloWorld函数**
 
-```
+``` python
 > c.HelloWorld()
 ```
 
@@ -138,14 +138,14 @@ BOOL WINAPI DllMain(HINSTANCE hinstDLL,DWORD fdwReason,LPVOID lpvReserved)
 
 和使用HelloWorld不同的是，我们需要传入两个参数
 
-```
+``` python
 > c.add(1, 2)
 3
 ```
 
 或者
 
-```
+``` python
 > c.add(c_int(1), c_int(2))
 3
 ```
