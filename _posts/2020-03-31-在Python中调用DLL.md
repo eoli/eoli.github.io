@@ -24,7 +24,8 @@ layout: post
 
 这里定义了DLLIMPORT，以及导出函数原型。其实可以不用定义导出函数原型，只是以后没人知道怎么使用这些函数。
 
-```c
+{%code%}
+c
 #ifndef _DLL_H_
 #define _DLL_H_
 
@@ -38,7 +39,7 @@ DLLIMPORT void HelloWorld();
 DLLIMPORT int add(int, int);
 
 #endif
-```
+{%endcode%}
 
 
 
