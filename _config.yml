@@ -13,6 +13,9 @@ github  : "https://github.com/eoli"
 # comment
 # disqus_shortname: eoli
 
+# crisp
+# enable_crisp: true
+
 # Build settings
 include: [_pages]
 markdown: kramdown
