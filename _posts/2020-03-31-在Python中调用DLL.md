@@ -1,5 +1,6 @@
 ---
 layout: post
+title: 在Python中调用DLL
 ---
 本文探讨如何在Python中调用DLL。我们首先创建一个DLL，然后再用Python进行调用。
 
