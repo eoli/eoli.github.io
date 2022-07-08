@@ -21,6 +21,11 @@ pre, code {
     @include fs--code;
 }
 
+div.highlighter-rouge>pre, div.highlighter-rouge pre.highlight, figure.highlight>pre, figure.highlight pre.highlight {
+    margin: 0;
+    padding: 1em
+}
+
 .highlight {
     border-radius: 4px;
     background: #FDFDFD;
