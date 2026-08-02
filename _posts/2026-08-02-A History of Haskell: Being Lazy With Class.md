@@ -10,6 +10,9 @@ Simon describes the history of Haskell, including its genesis and principles, te
 - [Simon Peyton Jones - A History of Haskell: being lazy with class (MP4)](https://www.youtube.com/watch?v=06x8Wf2r2Mc)
 
 ## More
+
+- [Simon Peyton-Jones: Escape from the ivory tower: the Haskell journey](https://www.youtube.com/watch?v=re96UgMk6GQ)
+
 - [Co-Creator of Haskell: Functional Programming, Thinking in Types, Useless Languages - Simon Jones (MP4)](https://www.youtube.com/watch?v=xcB_LF3cdqw)
 
 - [An Overview of Haskell (PDF)](http://www.haifux.org/lectures/170/lecture-handout.pdf)
