@@ -9,11 +9,12 @@ Simon describes the history of Haskell, including its genesis and principles, te
 
 - [Simon Peyton Jones - A History of Haskell: being lazy with class (MP4)](https://www.youtube.com/watch?v=06x8Wf2r2Mc)
 
-- [Co-Creator of Haskell: Functional Programming, Thinking in Types, Useless Languages | Simon Jones (MP4)](https://www.youtube.com/watch?v=xcB_LF3cdqw)
+## More
+- [Co-Creator of Haskell: Functional Programming, Thinking in Types, Useless Languages - Simon Jones (MP4)](https://www.youtube.com/watch?v=xcB_LF3cdqw)
 
 - [An Overview of Haskell (PDF)](http://www.haifux.org/lectures/170/lecture-handout.pdf)
 
-# More
+# STG
 Haskell's semantics are based on lambda calculus, while its execution is implemented by an abstract machine such as STG, which ultimately runs on a physical CPU.
 
 - [The Spineless Tagless G Machine (HTML)](https://www.theshortlog.com/posts/spineless-tagless-g/?utm_source=chatgpt.com)
